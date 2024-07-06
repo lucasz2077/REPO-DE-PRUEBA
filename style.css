@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,37,1) 35%, rgba(0,212,255,1) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,6 +33,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #48e
 }
 
 #app {
@@ -49,10 +50,10 @@ h1 {
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #64c1ffaa);
 }
 .logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+  filter: drop-shadow(0 0 2em #37f71eaa);
 }
 
 .card {
@@ -60,7 +61,7 @@ h1 {
 }
 
 .read-the-docs {
-  color: #888;
+  color: #6c1212;
 }
 
 button {
@@ -70,7 +71,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #3c0202;
   cursor: pointer;
   transition: border-color 0.25s;
 }
