@@ -1,3 +1,5 @@
+import './nav.js';
+
 // Create a navbar element
 const navbar = document.createElement('nav');
 
@@ -30,4 +32,6 @@ navList.appendChild(contactItem);
 navbar.appendChild(navList);
 
 // Append the navbar to the document body
-document.body.appendChild(navbar);
+// Import the nav.js file
+
+// The rest of your main.js code...
